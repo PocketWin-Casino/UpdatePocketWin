@@ -1,0 +1,64 @@
+body {
+    font-family:Verdana;
+    background-color:black;
+    overflow:hidden;
+    margin:0;
+}
+button {
+    color:crimson;
+    background-color:black;
+    width:250px;
+    height:40px;
+    font-size:20px;
+    cursor:pointer;
+    border:2px solid white;
+    border-radius:5px;
+}
+
+.center {
+    text-align:center;
+}
+.SupCenter {
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#Main {
+    background-color:crimson;
+    width:500px;
+    height:500px;
+    border:3px solid white;
+    border-radius:15px;
+}
+#Map {
+    background-color:grey;
+    width:350px;
+    height:350px;
+    border-radius:10px;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    box-sizing:border-box;
+    padding:10px;
+    margin:0 auto;
+    gap:20px;
+}
+
+.Block, .Star {
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    border-radius:5px;
+}
+.Block {
+    background-color:black;
+    cursor:pointer;
+}
+.Star {
+    color:black;
+    background-color:yellow;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
